@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
 import zipfile
-
+import os
 class HardchiveUI:
     def __init__(self, root):
         self.root = root
